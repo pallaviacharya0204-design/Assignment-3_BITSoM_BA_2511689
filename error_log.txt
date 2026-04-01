@@ -1,0 +1,6 @@
+[2026-04-01 12:56:13] ERROR in fetch_products: ConnectionError — Failed to connect to dummyjson.com
+[2026-04-01 12:56:13] ERROR in fetch_laptops: ConnectionError — Failed to connect
+[2026-04-01 12:56:13] ERROR in add_product: ConnectionError — Failed to POST new product
+[2026-04-01 12:56:13] ERROR in lookup_product: ConnectionError — Failed for product ID 5
+[2026-04-01 12:56:13] ERROR in fetch_products: ConnectionError — No connection could be made to unreachable host
+[2026-04-01 12:56:13] ERROR in lookup_product: Exception — HTTPSConnectionPool(host='dummyjson.com', port=443): Max retries exceeded with url: /products/999 (Caused by NameResolutionError("HTTPSConnection(host='dummyjson.com', port=443): Failed to resolve 'dummyjson.com' ([Errno -3] Temporary failure in name resolution)"))
